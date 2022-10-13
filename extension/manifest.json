@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+
+  "name": "Intercom Inbox of Love",
+  "version": "1.1.0",
+  "description": "Bringing back the inbox of love for the new Intercom Inbox. This extension is not affiliated with Intercom.\nProject page: https://github.com/ellysus/intercom-inbox-of-love",
+  
+  "content_scripts": [
+    {
+      "js": [
+        "app.js",
+        "confetti.browser.min.js",
+        "customconfetti.js"
+      ],
+      "matches": [
+          "https://app.intercom.com/*",
+          "https://intercom.com/*"
+      ]
+    }
+  ],
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png",
+    "512": "icons/icon512.png"
+  }
+}
