@@ -1,5 +1,5 @@
 
-# intercom-inbox-of-love
+# Inbox Of Love for New Inbox
   
 Bringing back the inbox of love for the new Intercom Inbox!
 
